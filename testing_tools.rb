@@ -16,8 +16,10 @@ gem_group :development, :test do
   gem 'valid_attribute'
   gem 'factory_girl_rails'
 
-  gem 'webrat'
-  gem 'launchy'
+  unless yes?("API only app?")
+    gem 'webrat'
+    gem 'launchy'
+  end
 end
 
 file ".rspec", <<-CODE

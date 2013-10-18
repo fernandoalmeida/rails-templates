@@ -14,7 +14,7 @@ A collection of scripts for creating or apply to existing rails applications.
 
 ## Features
 
-### testing_tools.rb
+### Testing Tools
 
 - Guard
 - Spork
@@ -23,6 +23,14 @@ A collection of scripts for creating or apply to existing rails applications.
 - Shoulda
 - Factory Girl
 - Webrat
+- Launchy
+
+### Debugging Tools
+
+- Pry
+- Awesome Print
+- Hirb
+- Better Errors
 
 ## Mantainers
 
